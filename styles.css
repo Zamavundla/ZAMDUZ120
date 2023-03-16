@@ -117,10 +117,3 @@ footer{
     background-size: cover;
 }
 
-.aside{
-    display: flex;
-}
-
-.aside2{
-    display: inline-block;
-}
