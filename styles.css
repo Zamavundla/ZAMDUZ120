@@ -109,11 +109,59 @@ a.run,a:hover{
 section{
     background: url(/images/background.jpg) no-repeat;
     background-size: cover;
-    height: calc(210vh - 80px);
+    height: calc(230vh - 150px);
     color: azure;
 }
 footer{
     background: burlywood;
     background-size: cover;
+    margin: 0px;
+    height: fit-content;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+
 }
+
+.intro{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0 , 0, 0, 0.5)), url(/images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.intro-image .intro-text{
+    color: aliceblue;
+    text-align: center;
+}
+.intro-image .intro-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.intro-image .intro-text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 20px;
+    font-size: xx-large;
+}
+
+p{
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+}
+
+
+    
 
