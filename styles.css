@@ -110,7 +110,7 @@ a.run,a:hover{
 section{
     background: url(/images/background.jpg) no-repeat;
     background-size: cover;
-    height: calc(290vh - 160px);
+    height: calc(300vh - 160px);
     color: azure;
 
 }
@@ -184,4 +184,3 @@ body{
 .list2{
     padding-left: 1%;
 }
-
