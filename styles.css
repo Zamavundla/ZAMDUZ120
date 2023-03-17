@@ -75,6 +75,7 @@ a.run,a:hover{
         }
     }
 }
+
 @media(max-width: 858px){
     .checkbtn{
         display: block;
@@ -109,13 +110,14 @@ a.run,a:hover{
 section{
     background: url(/images/background.jpg) no-repeat;
     background-size: cover;
-    height: calc(230vh - 150px);
+    height: calc(260vh - 160px);
     color: azure;
+
 }
 footer{
     background: burlywood;
     background-size: cover;
-    margin: 0px;
+    margin-top: -20px;
     height: fit-content;
     position: sticky;
     display: flex;
@@ -128,11 +130,12 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    position: relative;
 }
 
 .intro-image .intro-text{
@@ -162,6 +165,20 @@ p{
     text-align: justify;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: burlywood;
+    border-radius: 0px;
 
+}
+
+.aside{
+    width: 70%;
+    height: auto;
     
+
+}
+
 
