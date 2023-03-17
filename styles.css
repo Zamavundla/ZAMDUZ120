@@ -65,7 +65,7 @@ a.run,a:hover{
 
 #check{
     display: none;
-    @media(max-width: 952px){
+    @media screen and (max-width: 952px){
         label.info{
             font-size: 30px;
             padding-left: 50px;
@@ -76,7 +76,7 @@ a.run,a:hover{
     }
 }
 
-@media(max-width: 858px){
+@media screen and (max-width: 858px){
     .checkbtn{
         display: block;
     }
@@ -110,7 +110,7 @@ a.run,a:hover{
 section{
     background: url(/images/background.jpg) no-repeat;
     background-size: cover;
-    height: calc(260vh - 160px);
+    height: calc(290vh - 160px);
     color: azure;
 
 }
@@ -121,7 +121,7 @@ footer{
     height: fit-content;
     position: sticky;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -159,6 +159,14 @@ h1{
     font-size: xx-large;
 }
 
+h2{
+    color: black;
+}
+
+h3{
+    color: brown;
+}
+
 p{
     padding-left: 1%;
     padding-right: 1%;
@@ -171,14 +179,9 @@ body{
     border-style: solid;
     border-color: burlywood;
     border-radius: 0px;
-
 }
-
-.aside{
-    width: 70%;
-    height: auto;
     
-
+.list2{
+    padding-left: 1%;
 }
-
 
