@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    text-align: justify;
+  }
+  
+  .me1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: burlywood;
+    height: 90px;
+    width: 100%;
+  }
+  
+  label.info {
+    color: aliceblue;
+    font-size: 25px;
+    line-height: 0px;
+    padding: 0 100px;
+    font-weight: bolder;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: blanchedalmond;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: -75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 1px;
+    width: 100%;
+    background-color: burlywood;
+  }
+  
+  a.run,
+  a:hover {
+    background: rgb(219, 149, 57);
+    transition: 5s;
+  }
+  
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  @media screen and (max-width: 952px) {
+    label.info {
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 858px) {
+    .checkbtn {
+      display: block;
+    }
+    ul.list1 {
+      position: fixed;
+      width: 100%;
+      height: 40vh;
+      background: rgb(219, 149, 57);
+      top: 90px;
+      left: 0;
+      text-align: center;
+      display: none;
+    }
+    nav ul li {
+      display: block;
+      margin: 20px 0;
+      line-height: 30px;
+    }
+    nav ul li a {
+      font-size: 20px;
+    }
+    a:hover,
+    a.run {
+      background: none;
+      color: rgb(219, 149, 57);
+    }
+    #check:checked ~ ul.list1 {
+      display: block;
+    }
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  section {
+    background: url(/images/background.jpg) no-repeat;
+    background-size: cover;
+    height: fit-content;
+    color: azure;
+  }
+  
+  footer {
+    background: burlywood;
+    background-size: cover;
+    margin-top: -20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .intro {
+    background-image: linear-gradient(
+        rgb(0, 0, 0, 0.5),
+        rgb(0, 0, 0, 0.5)
+      ),
+      url(/images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+  }
+  
+  .intro-image .intro-text {
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .intro-image .intro-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  .intro-image .intro-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 20px;
+    font-size: xx-large;
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  h3 {
+    color: brown;
+  }
+  
+  p {
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: burlywood;
+    border-radius: 0px;
+  }
+  
+  .list2 {
+    padding-left: 1%;
+  }
+  
+  @media screen and (min-width: 320px) {
+    .me1 {
+      display: flex;
+      width: auto;
+    }
+    .intro {
+      display: block;
+      text-align: justify;
+    }
+    .hero {
+      display: block;
+      flex-shrink: calc(100vh - 100px);
+    }
+    section {
+      background: url(/images/background.jpg) no-repeat;
+      background-size: cover;
+      height: fit-content;
+      color: azure;
+    }
+  }
+  
+  @media only screen {
+    footer {
+      background: burlywood;
+      background-size: cover;
+      margin-top: -20px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      flex: content;
+    }
+  }
+  
