@@ -1,4 +1,4 @@
-# ZAMDUZ120
+# DIGITAL RESUME
 
 
 This is my digital resume where HTML and CSS skills I acquired
